@@ -1,0 +1,84 @@
+body {
+    margin: auto;
+    max-width: 500px;
+    line-height: 160%;
+
+    background-color: #dddddd;
+    color: #111111;
+
+    @media (prefers-color-scheme: dark) {
+        background-color: #222222;
+        color: #eeeeee;
+    }
+}
+
+h1 {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+
+h3 {
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+
+p, ul {
+    font-size: 16px;
+    font-family: "Noto Serif";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+button {
+    font-family: "Noto Sans";
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #9999cc;
+}
+
+button:hover {
+    background-color: #8888bb
+}
+
+#toolbar_button {
+    float: right;
+    fill: none;
+    background-color: transparent;
+
+    @media (prefers-color-scheme: dark) {
+        color: #eeeeee;
+    }
+}
+
+#toolbar_button:hover {
+    font-variation-settings: 'FILL' 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info_box {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+}
+
+#large_floating_icon {
+    font-size: 100px;
+}
